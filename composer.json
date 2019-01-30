@@ -1,0 +1,10 @@
+{
+    "name": "root/feedback",
+    "authors": [
+        {
+            "name": "Ayush Singh",
+            "email": "ayush.singh.96@gmail.com"
+        }
+    ],
+    "require": {}
+}

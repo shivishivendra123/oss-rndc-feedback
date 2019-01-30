@@ -1,0 +1,49 @@
+/*html, body {
+    width: 100%;
+    background-color: #388E3C;
+}
+  table {
+      margin: 0 auto;
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 50%;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+}
+h3,h1{
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+.link{
+  text-align: justify;
+  text-decoration: none;
+  color:white;
+
+}
+.btn
+{
+font-size: 18px;
+
+float: right;
+margin-top: 10px;
+margin-right: 40px;
+
+}
+.form-feed{
+  text-align: center;
+}
+.form-feed1{
+  border: 1px solid black;
+  margin-left: 32em;
+  margin-right: 32em;
+  background-color: #dddddd;
+}
+*/

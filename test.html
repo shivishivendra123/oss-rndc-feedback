@@ -1,0 +1,75 @@
+<head><style type="text/css">
+@media print
+{
+.displayOnly {display: none;}
+}
+</style>
+
+<script type="text/javascript">
+  document.onbeforeprint = function(){
+   var chks = document.form1.chk;
+   if (chks.length){
+     for (var i=0;i<chks.length;i++){
+       if (!chks[i].checked) { 
+      document.getElementById("row"+chks[i].value).className="displayOnly";
+          document.getElementById("row"+chks[i].value+"_1").className="displayOnly";
+       }
+     }  
+   }
+   else if (!chks.checked) {
+     document.getElementById("row"+chks.value).className="displayOnly";
+     document.getElementById("row"+chks.value+"_1").className="displayOnly";
+   }
+  }
+  document.onafterprint = function(){
+   var chks = document.form1.chk;
+   if (chks.length){
+     for (var i=0;i<chks.length;i++){
+       if (!chks[i].checked){
+      document.getElementById("row"+chks[i].value).className="";
+          document.getElementById("row"+chks[i].value+"_1").className="displayOnly";
+       }
+     }  
+   }
+   else if (!chks.checked) {
+     document.getElementById("row"+chks.value).className="";
+     document.getElementById("row"+chks.value+"_1").className="";
+   }
+  }
+</script>
+</head>
+
+
+
+
+
+
+<form name="form1"> 
+<tr> 
+<table width="100" border="1" cellspacing="0" cellpadding="0"> 
+<tr id="row1"> 
+<td><input type="checkbox" name="chk" value="1"></td> 
+<td>firt name</td> 
+<td>middle name</td> 
+<td>last name</td> 
+</tr> 
+<tr id="row1_1"> 
+<td colspan="4">biography</td> 
+</tr> 
+<tr id="row2"> 
+<td><input type="checkbox" name="chk" value="2"></td> 
+<td>firt name 2</td> 
+<td>middle name 2</td> 
+<td>last name 2</td> 
+</tr> 
+<tr id="row2_1"> 
+<td colspan="4">biography 2</td> 
+</tr>
+</table> 
+</tr> 
+<p> 
+<input type="button" value="Print Cards" onclick="window.print()"> 
+</form>
+
+
+
