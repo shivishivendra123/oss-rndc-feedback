@@ -1,3 +1,54 @@
+# oss-rndc-feedback
+
+**oss-rndc-feedback** is an online portal designed to help students rate their professors based on predefined questions. The system allows students to log in, view the courses they are enrolled in, and rate their professors accordingly. Admin users have access to a comprehensive dashboard to view ratings for professors based on student, class, and department, with the ability to generate detailed reports in Excel format. 
+
+This project is built using PHP, SQL, HTML, CSS, and Bootstrap, ensuring a user-friendly interface and efficient data handling.
+
+## Features
+
+### Student Portal
+- **Student Login:** Students can log in securely to the portal.
+- **Course Selection:** After login, students can view a list of all the courses they are enrolled in.
+- **Professor Ratings:** Students can rate their professors for each course based on predefined questions.
+
+### Admin Portal
+- **View Ratings:** Admins can view ratings for professors, broken down by:
+  - Student-wise
+  - Class-wise
+  - Department-wise
+- **Generate Reports:** Admins can generate detailed reports in Excel format for further analysis.
+
+### User-Friendly Interface
+- The portal uses **Bootstrap** for responsive design, ensuring compatibility across devices.
+- Simple and intuitive forms for students to provide feedback.
+- Admin panel for easy management and data retrieval.
+
+## Tech Stack
+
+- **Backend:** PHP
+- **Database:** SQL
+- **Frontend:** HTML, CSS, Bootstrap
+- **Reports:** Excel file generation for professor feedback
+
+## Installation
+
+### Prerequisites
+Make sure you have the following installed:
+- PHP 7.x or higher
+- MySQL
+- A web server (like Apache or Nginx)
+
+### Setup Instructions
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/shivishivendra123/oss-rndc-feedback.git
+   cd oss-rndc-feedback
+
+ 
+ 
+ 
+ 
  [![TableExport](/Hero.png)](https://tableexport.travismclarke.com)
 <!-- # [TableExport](https://tableexport.travismclarke.com) -->
 <!-- The simple, easy-to-implement library to export HTML tables to `xlsx`, `xls`, `csv`, and `txt` files. -->
